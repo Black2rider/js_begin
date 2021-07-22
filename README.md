@@ -34,10 +34,10 @@ Jamaica - 120 кредитов
       
     default:
     message = 'Sorry, there is no delivery to your country'
-  }
-  // Change code above this line
-  return message;
-}
+    }
+    // Change code above this line
+    return message;
+    }
     
     2.  Задача: форматирование сообщения
 Задание
