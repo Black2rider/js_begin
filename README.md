@@ -12,10 +12,10 @@ Australia - 170 кредитов
 Jamaica - 120 кредитов
 Из списка видно, что доставка есть не везде. Если указанной страны нет в списке, то функция должна вернуть строку "Sorry, there is no delivery to your country"
   
-  function getShippingCost(country) {
-  let message;
-  // Change code below this line
-  switch (country) {
+    function getShippingCost(country) {
+    let message;
+    // Change code below this line
+    switch (country) {
     case 'China':
     message = `Shipping to ${country} will cost 100 credits`;
     break
