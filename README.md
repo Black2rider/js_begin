@@ -82,5 +82,19 @@ Jamaica - 120 кредитов
       }
        // Change code above this line
        return result;
-}
+      }
+                                     
+     
+   4. Задача: Крайние элементы массива
+Задание
+Напиши функцию getExtremeElements(array) которая принимает один параметр array - массив элементов произвольной длины. Функция должна возвращать массив из двух элементов - первого и последнего элемента параметра array.
+                                     
+       function getExtremeElements(array) {
+      // Change code below this line
+      const elements = [];
+      elements[0] = array[0];
+      elements[1] = array[array.length - 1];
+      return elements;
+      // Change code above this line
+      }                              
                            
