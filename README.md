@@ -39,7 +39,7 @@ Jamaica - 120 кредитов
     return message;
     }
     
-    2.  Задача: форматирование сообщения
+  2.  Задача: форматирование сообщения
 Задание
 Функция formatMessage(message, maxLength) принимает строку (параметр message) и форматирует её, если длина превышает значение в параметре maxLength.
 
@@ -48,18 +48,18 @@ Jamaica - 120 кредитов
 не превышает maxLength, функция возвращает её в исходном виде.
 больше maxLength, то функция обрезает строку до maxLength символов и добавляет в конец троеточие "...", после чего возвращает укороченную версию.
     
-    function formatMessage(message, maxLength) {
-  let result;
-  // Change code below this line
-  if (message.length <= maxLength) {
-     result = message; 
-  } else {
-     result = message.slice(0, maxLength) + '...';
-  }
-  /// Change code above this line
-  return result;
-}
-//console.log(formatMessage('message', 9));
+      function formatMessage(message, maxLength) {
+      let result;
+      // Change code below this line
+      if (message.length <= maxLength) {
+      result = message; 
+      } else {
+      result = message.slice(0, maxLength) + '...';
+      }
+      /// Change code above this line
+      return result;
+      }
+      //console.log(formatMessage('message', 9));
 
                                  
    3.  Задача: проверка спама
@@ -70,17 +70,17 @@ Jamaica - 120 кредитов
 Если в строке нет запрещенных слов, функция возвращает буль false.
                                  
       function checkForSpam(message) {
-  let result;
-  // Change code below this line
-  let string = message.toLowerCase();
-  if (string.includes('spam')) {
-     result = true;
-  } else if (string.includes('sale')) {
+      let result;
+      // Change code below this line
+      let string = message.toLowerCase();
+      if (string.includes('spam')) {
+      result = true;
+       } else if (string.includes('sale')) {
      result = true; 
-  } else {
-     result = false; 
-  }
-  // Change code above this line
-  return result;
+       } else {
+      result = false; 
+      }
+       // Change code above this line
+       return result;
 }
                            
