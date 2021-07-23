@@ -89,14 +89,14 @@ Jamaica - 120 кредитов
 Задание
 Напиши функцию getExtremeElements(array) которая принимает один параметр array - массив элементов произвольной длины. Функция должна возвращать массив из двух элементов - первого и последнего элемента параметра array.
                                      
-         function getExtremeElements(array) {
-          // Change code below this line
-          const elements = [];
-         elements[0] = array[0];
-         elements[1] = array[array.length - 1];
-         return elements;
-         // Change code above this line
-         }                              
+           function getExtremeElements(array) {
+           // Change code below this line
+           const elements = [];
+           elements[0] = array[0];
+           elements[1] = array[array.length - 1];
+           return elements;
+           // Change code above this line
+           }                              
                            
   5.  Задача: гравировка украшений
 Задание
