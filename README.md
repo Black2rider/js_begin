@@ -114,3 +114,24 @@ Jamaica - 120 кредитов
            // Change code above this line
             }
             console.log(calculateEngravingPrice('украшений нужна функция', 3))                           
+
+                                     
+   6. Задача: композиция массивов
+Задание
+Напиши функцию makeArray(firstArray, secondArray, maxLength) для создания нового массива со всеми элементами двух исходных firstArray и secondArray. Параметр maxLength содержит максимально допустимую длину нового массива.
+
+Если количество элементов нового массива больше maxLength, функция должна вернуть копию массива длиной maxLength элементов. В противном случае функция должна вернуть новый массив целиком.
+                                     
+         function makeArray(firstArray, secondArray, maxLength) {
+         // Change code below this line
+         let newArray = firstArray.concat(secondArray);
+         let Array;
+         if (newArray.length > maxLength) {
+          Array = newArray.slice(0, maxLength); 
+          } else {
+        Array = newArray;
+        }
+         return Array;
+          // Change code above this line
+         }
+         console.log(makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4));                            
