@@ -169,3 +169,23 @@ Jamaica - 120 кредитов
                  // Change code above this line
                  return total;
                }                       
+
+   
+   
+   9.  Задача: поиск самого длинного слова
+Задание
+Напиши функцию findLongestWord(string) которая принимает произвольную строку состоящую только из слов разделённых пробелом (параметр string) и возвращает самое длинное слово в этой строке.
+   
+                function findLongestWord(string) {
+                 // Change code below this line
+                 let newArray = string.split(' ');
+                 let maxWord = newArray[0];
+                 for (let i = 0; i < newArray.length; i += 1) {
+                     if (newArray[i].length > maxWord.length) {
+                        maxWord = newArray[i]; 
+                     }
+                 }
+                  return maxWord;
+
+                 // Change code above this line
+               }
