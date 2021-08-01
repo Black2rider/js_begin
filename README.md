@@ -134,4 +134,22 @@ Jamaica - 120 кредитов
          return Array;
           // Change code above this line
          }
-         console.log(makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4));                            
+         console.log(makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4));       
+   
+   
+
+   7.  Задача: сумма чисел (цикл for)
+Задание
+Напиши функцию calculateTotal(number), которая принимает целое число (параметр number) и возвращает сумму всех целых чисел от единицы и до этого числа. Например, если number равно 3, то сумма это 1 + 2 + 3, то есть 6.
+   
+          function calculateTotal(number) {
+          // Change code below this line
+           let summ = 0;
+          for (let i = 0; i <= number; i += 1) {
+              summ += i;
+          }
+           return summ;
+
+           // Change code above this line
+         } console.log(calculateTotal(3));
+  
