@@ -196,8 +196,24 @@ Jamaica - 120 кредитов
 Задание
 Напиши функцию filterArray(numbers, value), которая принимает массив чисел (параметр numbers) и возвращает новый массив, в котором будут только те элементы массива numbers, которые больше чем значение параметра value (число).
    
-                  
-                    unction filterArray(numbers, value) {
+                       function filterArray(numbers, value) {
+                       // Change code below this line
+                       const filteredNumbers = [];
+
+                       for (let i = 0; i < numbers.length; i += 1) {
+                         const number = numbers[i];
+
+                         if (number > value) {
+                           filteredNumbers.push(number);
+                         }
+                       }
+
+                       return filteredNumbers;
+                       // Change code above this line
+                     }
+                   
+   
+                    function filterArray(numbers, value) {
                      // Change code below this line
                     let newArray = [];
                     for (const number of numbers) {
